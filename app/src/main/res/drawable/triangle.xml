@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Forme géométrique « triangle » (drawable vectoriel, 240 x 240) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="#E4572E"
+        android:pathData="M120,28 L218,202 L22,202 Z" />
+</vector>

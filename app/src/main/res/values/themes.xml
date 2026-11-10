@@ -1,0 +1,38 @@
+<resources>
+    <style name="Theme.QuizImages" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/sand</item>
+        <item name="android:statusBarColor">@color/sand</item>
+        <item name="android:navigationBarColor">@color/sand</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Bouton de réponse : grand, arrondi, contour visible -->
+    <style name="Widget.Quiz.Choice" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="backgroundTint">@color/card</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <!-- Bouton d'action principal (suivant, rejouer) -->
+    <style name="Widget.Quiz.Action" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+</resources>

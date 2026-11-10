@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Quiz en images</string>
+    <string name="titre">Quiz des formes</string>
+
+    <!-- Bandeau : score et progression -->
+    <string name="score_format">Score : %1$d/%2$d</string>
+    <string name="progression_format">Réponses données : %1$d sur %2$d</string>
+    <string name="progression_description">Progression : %1$d réponses données sur %2$d</string>
+    <string name="question_numero">Question %1$d sur %2$d</string>
+
+    <!-- Retour sur la réponse (le texte ne dépend pas de la couleur) -->
+    <string name="feedback_juste">✔ Bonne réponse ! +1 point</string>
+    <string name="feedback_faux">✘ Mauvaise réponse. La bonne réponse était : %1$s</string>
+    <string name="marque_juste">✓ %1$s</string>
+    <string name="marque_faux">✗ %1$s</string>
+
+    <!-- Navigation -->
+    <string name="btn_suivant">Question suivante</string>
+    <string name="btn_resultat">Voir le résultat</string>
+    <string name="btn_rejouer">Rejouer</string>
+
+    <!-- Écran final -->
+    <string name="resultat_titre">Quiz terminé !</string>
+    <string name="resultat_score">Score final : %1$d / %2$d</string>
+    <string name="resultat_parfait">Parfait, vous connaissez toutes les formes !</string>
+    <string name="resultat_bien">Très bien, encore un petit effort pour le sans-faute.</string>
+    <string name="resultat_moyen">Pas mal, rejouez pour progresser.</string>
+    <string name="resultat_faible">Courage, observez bien les images et retentez votre chance.</string>
+</resources>

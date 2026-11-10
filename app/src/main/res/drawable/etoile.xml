@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Forme géométrique « etoile » (drawable vectoriel, 240 x 240) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="#8E5BD9"
+        android:pathData="M120.0,26.0 L143.5,93.6 L215.1,95.1 L158.0,138.4 L178.8,206.9 L120.0,166.0 L61.2,206.9 L82.0,138.4 L24.9,95.1 L96.5,93.6 Z" />
+</vector>

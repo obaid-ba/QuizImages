@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Forme géométrique « cercle » (drawable vectoriel, 240 x 240) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <path
+        android:fillColor="#F6AE2D"
+        android:pathData="M35,120 a85,85 0 1,0 170,0 a85,85 0 1,0 -170,0 Z" />
+</vector>
