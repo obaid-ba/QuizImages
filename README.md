@@ -9,6 +9,18 @@ le score final s'affiche à la fin de la partie, avec un bouton **Rejouer**.
 > [Captures d'écran](captures/README.md) · [Code Kotlin](app/src/main/java/com/example/quizimages/) ·
 > [Layout XML](app/src/main/res/layout/activity_main.xml)
 
+## Captures d'écran
+
+Captures réelles de l'application lancée sur un émulateur (Pixel 9a, Android 16).
+
+| Question | Bonne réponse | Mauvaise réponse | Résultat final |
+|:-:|:-:|:-:|:-:|
+| <img src="captures/1_question.png" width="200" alt="Question 1 avec l'image d'un triangle et trois choix"> | <img src="captures/2_bonne_reponse.png" width="200" alt="Bonne réponse : score 1/5"> | <img src="captures/3_mauvaise_reponse.png" width="200" alt="Mauvaise réponse : la bonne réponse est indiquée"> | <img src="captures/4_resultat_final.png" width="200" alt="Écran final : score 4/5 et bouton Rejouer"> |
+
+Sur un petit écran (480 × 800), la zone de la question défile et les trois choix restent accessibles :
+
+<img src="captures/5_petit_ecran.png" width="200" alt="Petit écran : choix et bouton Question suivante accessibles après défilement">
+
 ## Fonctionnalités
 
 - Une seule activité `MainActivity`, **sans fragment** et **sans Jetpack Compose** (interface 100 % XML).
@@ -65,3 +77,4 @@ QuizImages/
 ## Auteur
 
 Obaid Allah — ISET Djerba.
+# QuizImages

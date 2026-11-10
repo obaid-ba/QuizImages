@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import com.example.quizimages.databinding.ActivityMainBinding
 import com.google.android.material.button.MaterialButton
 
@@ -79,6 +81,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Android 15+ affiche l'application bord à bord : on décale le contenu pour
+        // qu'il ne passe pas sous la barre d'état ni sous la barre de navigation.
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { vue, insets ->
+            val barres = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            vue.setPadding(barres.left, barres.top, barres.right, barres.bottom)
+            insets
+        }
 
         boutonsChoix = listOf(binding.btnChoix1, binding.btnChoix2, binding.btnChoix3)
 
